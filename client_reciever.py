@@ -37,7 +37,8 @@ def encrypt(a): #A function to encode the data using custom made encrytion
         
    
 s = socket.socket(socket.AF_INET)         # Create a socket object
-host = '80.78.219.189'  # Get local machine name
+s.bind(('0.0.0.0',12346))
+host = '80.78.219.189'      # Get local machine name
 port = 12345               # connect to the same port as in the server.
 
 buff=409600
