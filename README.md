@@ -24,3 +24,7 @@ The principle is simple. To fool the NAT, the application keeps sending out a du
 </li>
   
 </ol>
+**Usage**
+The server_messager.py needs to be set on an server which has router permissions (port forwarding). The client_messager can be used behind a nat with the public IP of the server and the port. 
+Once connected:
+You can use 'file' to send any file from the client to server/server to client. use ctrl+c to disconnect. Currently only supports one file :(
